@@ -13,34 +13,24 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            background: url('/assets/images/kr.jpeg') no-repeat center center fixed;
-            background-size: cover;
+            background-color: #121212
+            /* background: url('/assets/images/kr.jpeg') no-repeat center center fixed; */
+            /* background-size: cover; */
         }
         .content {
             position: relative;
-            z-index: 1; /* Ensure content is above the blurred background */
             padding: 20px;
-            color: rgb(204, 186, 172); /* Change text color for better visibility */
+            color: rgb(224, 224, 224); /* Change text color for better visibility */
             text-align: center;
-            border: 2px solid rgba(235, 230, 227, 1); /* White border with some transparency */
+            border: 2px solid rgba(3, 218, 198, 1); /* White border with some transparency */
             border-radius: 15px; /* Rounded corners */
-            background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for contrast */
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Optional shadow for depth */
-        }
-        .hidden {
-            position: absolute;
-            width: 1px;
-            height: 1px;
-            overflow: hidden;
-            clip: rect(0, 0, 0, 0);
-            white-space: nowrap; /* Prevents the text from breaking */
         }
     </style>
 </head>
 <body>
-    <div class="hidden">A man in a brown jacket rows a boat on a calm lake. Rocky cliffs and trees are visible in the background under an overcast sky.</div>
+
     <div class="content">
-        <h1>Kevin Rodgers</h1>
+        <h1>Kev Rodgers</h1>
         <p>Nice, right?</p>
     </div>
 </body>
